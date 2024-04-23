@@ -24,7 +24,7 @@ function App() {
   const [balance, setBalance] = useState(0);
   const [main_portfolio, setPortfolio] = useState([]);
   const [stockData, setStockData] = useState([]);
-  const [selectStock,setSelectStock]=useState("AAPL");
+  const [selectStock,setSelectStock]=useState("portfolio");
   const [portfolioStock,setPortfolioStock]=useState("");
 
   useEffect(() => {
